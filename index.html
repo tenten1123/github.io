@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pc.css">
+    <link rel="stylesheet" href="sp.css">
+    <title>犬カフェＴ＆Ｍ</title>
+</head>
+<body>
+    <header>
+        <div id="header_innner">
+            <div id="header_left">
+                <a href="#"><img src="assets/logo.png" alt="ロゴ" width="195" height="89"></a>
+            </div>
+                <div id="header_right">
+                    <ul class="pc">
+                        <li><img src="assets/denwa.png" alt="" width="200" height="50"></li>
+                        <li><a href="#"><img src="assets/Facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/inst.png" alt=""></a></li>
+                    </ul>
+                </div>
+                    <div id="menu_btn" class="">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                <div id="menu_list">
+                    <nav>
+                        <img id="top_img" class="pc" src="犬カフェ-assets/asi.png" alt="">
+                        <ul>
+                            <li><a href="#"><b>初めての方へ</b></a></li>
+                            <li><a href="#"><b>お食事メニュー</b></a></li>
+                            <li><a href="#"><b>わんちゃんメニュー</b></a></li>
+                            <li><a href="#"><b>ドリンクメニュー</b></a></li>
+                            <li><a href="#"><b>アクセス</b></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+           $(function(){
+              $("#menu_btn").on("click",function(){
+                 $("body").toggleClass("open");
+                });
+           });
+        </script>
+
+
+
+    </header>
+    <main>
+        <h1 id="mainphoto">
+            <img src="assets/mainphoto.jpg" alt="">
+        </h1>
+        <section id="sec1">
+            <div id="sec_innner">
+            <img src="assets/ex.png" alt="">
+              </div>
+            </div>
+        </section>
+        <section>
+            <h2>ＩＮＦＯＲＭＡＴＩＯＮ</h2>
+
+            <div id="inf">
+                <ul>
+                    <li><a href="#"><img src="assets/dogran.jpg" alt=""><p>2024.08.22</p><p>ドッグラン<br>リニューアルオープン</p></a></li>
+                    <li><a href="#"><img src="assets/pancake.jpg" alt=""><p>2024.09.01</p><p>新Menuでました！</p></a></li>
+                    <li><a href="#"><img src="assets/baby.jpg" alt=""><p>2024.10.10</p><p>子犬ふれあいtime開催</p></a></li>
+                </ul>
+                <img id="bottom_img" class="pc" src="犬カフェ-assets/asi.png" alt="">
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+      <div id="f_d">
+          <div id="f_left">
+              <div id="f_img">
+                <img src="犬カフェ-assets/logo.png" alt="" width="200">
+              </div>
+              <div id="address">
+                <p>〒000-0000</p>
+                <p>大分県大分市南狭間市本町2組</p>
+                <p>0972-00-0000</p>
+              </div>
+          </div>
+         <div id="f_right">
+            <ul id="sns">
+                <li>
+                    <a href="#"><img src="犬カフェ-assets/Facebook.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="犬カフェ-assets/inst.png" alt=""></a>
+                </li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+</body>
+</html>
