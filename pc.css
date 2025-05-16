@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* リセットCSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: "游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 Pro","Hiragino Mincho Pro","MS P明朝","MS PMincho",serif;
+}
+@media screen and (min-width: 768px){
+
+    a:hover{
+        opacity: 0.5;
+    }
+    
+    #header_innner{
+        background: #fcf8f2;
+        box-shadow: 0 5px 10px #666;
+        height: 110px;
+    }
+
+    #header_left{
+        float: left;
+        margin-left: 240px;
+        margin-top: 16px;
+    }
+
+
+    #header_right{
+        padding: 18px 0 21px;
+        float: right;
+    }
+
+    #header_right ul{
+        display: flex;
+        margin-right: 240px;
+    }
+    #header_right ul li{
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #menu_list{
+        display: block;
+        text-align: center;
+        background-size: cover;
+        box-shadow: 0 1px 5px #999;
+        position: relative;
+    }
+
+    #menu_list ul{
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 19px 175px 16px;
+        background-color: #c0f8e9;
+    }
+
+    #menu_list ul li{
+        text-align: center;
+        display: inline-block;
+        width: 24%;
+        font-family: Yikes_medium;
+    }
+
+    #menu_list ul li a{
+        color: #878488;
+    }
+
+
+
+    #top_img{
+        position: absolute;
+        left: 140px;
+        bottom: -22px;
+    }
+
+    #mainphoto img{
+        width: 1540px;
+    }
+
+    #sec1{
+        text-align: center;
+        padding: 104px 0 90px;
+        background: #fcf8f2 url(../img/top/bg01.png) no-repeat 50% 0;
+    }
+
+    #tm{
+        font-family: Yikes_medium;
+        font-size: 1.4em;
+    }
+
+    #maintext{
+        font-family: Yikes_medium;
+        margin: 30px 0 0;
+        line-height: 2;
+    }
+
+    h2{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: Yikes_medium;
+    }
+
+    #inf{
+        margin-bottom: 100px;
+    }
+
+    #inf ul{
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    #inf ul li{
+        width: 345px;
+    }
+
+    #inf ul li a{
+        color: #878488;
+    }
+
+    #bottom_img{
+        position: absolute;
+        right: 211px;
+        bottom: -1200px;
+    }
+
+    #f_d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #c0f8e9;
+    }
+
+    #f_left{
+        display: flex;
+    }
+
+    #f_img{
+        margin-top: 50px;
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+
+    #address{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #f_right ul{
+        display: flex;
+        margin-right: 300px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #f_right ul li{
+        margin-right: 30px;
+    }
+
+
+}
